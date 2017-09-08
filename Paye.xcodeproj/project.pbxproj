@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531420A71F62902800FE42D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531420A61F62902800FE42D3 /* AppDelegate.swift */; };
+		531420A91F62902800FE42D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531420A81F62902800FE42D3 /* ViewController.swift */; };
+		531420AC1F62902800FE42D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531420AA1F62902800FE42D3 /* Main.storyboard */; };
+		531420AE1F62902800FE42D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531420AD1F62902800FE42D3 /* Assets.xcassets */; };
+		531420B11F62902800FE42D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531420AF1F62902800FE42D3 /* LaunchScreen.storyboard */; };
+		531420BC1F62902900FE42D3 /* PayeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531420BB1F62902900FE42D3 /* PayeTests.swift */; };
+		531420C71F62902900FE42D3 /* PayeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531420C61F62902900FE42D3 /* PayeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		531420B81F62902800FE42D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5314209B1F62902800FE42D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531420A21F62902800FE42D3;
+			remoteInfo = Paye;
+		};
+		531420C31F62902900FE42D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5314209B1F62902800FE42D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531420A21F62902800FE42D3;
+			remoteInfo = Paye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		531420A31F62902800FE42D3 /* Paye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		531420A61F62902800FE42D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		531420A81F62902800FE42D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		531420AB1F62902800FE42D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		531420AD1F62902800FE42D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		531420B01F62902800FE42D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		531420B21F62902800FE42D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531420B71F62902800FE42D3 /* PayeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		531420BB1F62902900FE42D3 /* PayeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeTests.swift; sourceTree = "<group>"; };
+		531420BD1F62902900FE42D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531420C21F62902900FE42D3 /* PayeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		531420C61F62902900FE42D3 /* PayeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeUITests.swift; sourceTree = "<group>"; };
+		531420C81F62902900FE42D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531420A01F62902800FE42D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531420B41F62902800FE42D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531420BF1F62902900FE42D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5314209A1F62902800FE42D3 = {
+			isa = PBXGroup;
+			children = (
+				531420A51F62902800FE42D3 /* Paye */,
+				531420BA1F62902800FE42D3 /* PayeTests */,
+				531420C51F62902900FE42D3 /* PayeUITests */,
+				531420A41F62902800FE42D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531420A41F62902800FE42D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531420A31F62902800FE42D3 /* Paye.app */,
+				531420B71F62902800FE42D3 /* PayeTests.xctest */,
+				531420C21F62902900FE42D3 /* PayeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		531420A51F62902800FE42D3 /* Paye */ = {
+			isa = PBXGroup;
+			children = (
+				531420A61F62902800FE42D3 /* AppDelegate.swift */,
+				531420A81F62902800FE42D3 /* ViewController.swift */,
+				531420AA1F62902800FE42D3 /* Main.storyboard */,
+				531420AD1F62902800FE42D3 /* Assets.xcassets */,
+				531420AF1F62902800FE42D3 /* LaunchScreen.storyboard */,
+				531420B21F62902800FE42D3 /* Info.plist */,
+			);
+			path = Paye;
+			sourceTree = "<group>";
+		};
+		531420BA1F62902800FE42D3 /* PayeTests */ = {
+			isa = PBXGroup;
+			children = (
+				531420BB1F62902900FE42D3 /* PayeTests.swift */,
+				531420BD1F62902900FE42D3 /* Info.plist */,
+			);
+			path = PayeTests;
+			sourceTree = "<group>";
+		};
+		531420C51F62902900FE42D3 /* PayeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				531420C61F62902900FE42D3 /* PayeUITests.swift */,
+				531420C81F62902900FE42D3 /* Info.plist */,
+			);
+			path = PayeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531420A21F62902800FE42D3 /* Paye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531420CB1F62902900FE42D3 /* Build configuration list for PBXNativeTarget "Paye" */;
+			buildPhases = (
+				5314209F1F62902800FE42D3 /* Sources */,
+				531420A01F62902800FE42D3 /* Frameworks */,
+				531420A11F62902800FE42D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paye;
+			productName = Paye;
+			productReference = 531420A31F62902800FE42D3 /* Paye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		531420B61F62902800FE42D3 /* PayeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531420CE1F62902900FE42D3 /* Build configuration list for PBXNativeTarget "PayeTests" */;
+			buildPhases = (
+				531420B31F62902800FE42D3 /* Sources */,
+				531420B41F62902800FE42D3 /* Frameworks */,
+				531420B51F62902800FE42D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531420B91F62902800FE42D3 /* PBXTargetDependency */,
+			);
+			name = PayeTests;
+			productName = PayeTests;
+			productReference = 531420B71F62902800FE42D3 /* PayeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		531420C11F62902900FE42D3 /* PayeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531420D11F62902900FE42D3 /* Build configuration list for PBXNativeTarget "PayeUITests" */;
+			buildPhases = (
+				531420BE1F62902900FE42D3 /* Sources */,
+				531420BF1F62902900FE42D3 /* Frameworks */,
+				531420C01F62902900FE42D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531420C41F62902900FE42D3 /* PBXTargetDependency */,
+			);
+			name = PayeUITests;
+			productName = PayeUITests;
+			productReference = 531420C21F62902900FE42D3 /* PayeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5314209B1F62902800FE42D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fortune;
+				TargetAttributes = {
+					531420A21F62902800FE42D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					531420B61F62902800FE42D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 531420A21F62902800FE42D3;
+					};
+					531420C11F62902900FE42D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 531420A21F62902800FE42D3;
+					};
+				};
+			};
+			buildConfigurationList = 5314209E1F62902800FE42D3 /* Build configuration list for PBXProject "Paye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5314209A1F62902800FE42D3;
+			productRefGroup = 531420A41F62902800FE42D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531420A21F62902800FE42D3 /* Paye */,
+				531420B61F62902800FE42D3 /* PayeTests */,
+				531420C11F62902900FE42D3 /* PayeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531420A11F62902800FE42D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531420B11F62902800FE42D3 /* LaunchScreen.storyboard in Resources */,
+				531420AE1F62902800FE42D3 /* Assets.xcassets in Resources */,
+				531420AC1F62902800FE42D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531420B51F62902800FE42D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531420C01F62902900FE42D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5314209F1F62902800FE42D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531420A91F62902800FE42D3 /* ViewController.swift in Sources */,
+				531420A71F62902800FE42D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531420B31F62902800FE42D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531420BC1F62902900FE42D3 /* PayeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531420BE1F62902900FE42D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531420C71F62902900FE42D3 /* PayeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531420B91F62902800FE42D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531420A21F62902800FE42D3 /* Paye */;
+			targetProxy = 531420B81F62902800FE42D3 /* PBXContainerItemProxy */;
+		};
+		531420C41F62902900FE42D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531420A21F62902800FE42D3 /* Paye */;
+			targetProxy = 531420C31F62902900FE42D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		531420AA1F62902800FE42D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531420AB1F62902800FE42D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		531420AF1F62902800FE42D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531420B01F62902800FE42D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		531420C91F62902900FE42D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		531420CA1F62902900FE42D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531420CC1F62902900FE42D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Paye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fortune.Paye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		531420CD1F62902900FE42D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Paye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fortune.Paye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		531420CF1F62902900FE42D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fortune.PayeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paye.app/Paye";
+			};
+			name = Debug;
+		};
+		531420D01F62902900FE42D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fortune.PayeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paye.app/Paye";
+			};
+			name = Release;
+		};
+		531420D21F62902900FE42D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PayeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fortune.PayeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Paye;
+			};
+			name = Debug;
+		};
+		531420D31F62902900FE42D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PayeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fortune.PayeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Paye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5314209E1F62902800FE42D3 /* Build configuration list for PBXProject "Paye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531420C91F62902900FE42D3 /* Debug */,
+				531420CA1F62902900FE42D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531420CB1F62902900FE42D3 /* Build configuration list for PBXNativeTarget "Paye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531420CC1F62902900FE42D3 /* Debug */,
+				531420CD1F62902900FE42D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		531420CE1F62902900FE42D3 /* Build configuration list for PBXNativeTarget "PayeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531420CF1F62902900FE42D3 /* Debug */,
+				531420D01F62902900FE42D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		531420D11F62902900FE42D3 /* Build configuration list for PBXNativeTarget "PayeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531420D21F62902900FE42D3 /* Debug */,
+				531420D31F62902900FE42D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5314209B1F62902800FE42D3 /* Project object */;
+}
